@@ -6,6 +6,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.blur{
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
 ion-icon{
     color: white;
 }

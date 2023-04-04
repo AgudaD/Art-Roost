@@ -12,7 +12,7 @@ const Navbar = () => {
       // document.body.style.overflow = "scroll";
     }
     return () => {
-      document.body.style.overflow = "scroll";
+      // document.body.style.overflow = "scroll";
     }
   }, [!open])
   
@@ -37,7 +37,7 @@ const Navbar = () => {
         className="fixed z-50 top-0 left-0 overflow-hidden hidden h-screen w-full"
         style={{
           display: open && "block",
-          backdropFilter: open && "blur(5px)",
+          backdropFilter: open && "",
         }}
       >
         <div
@@ -52,7 +52,7 @@ const Navbar = () => {
           <ion-icon name="close-outline" size="large"></ion-icon>
         </div>
         <nav
-          className="absolute top-8 left-6 opacity-0 text-white font-helvetica border border-white"
+          className="absolute top-8 left-6 opacity-0 blur text-white font-helvetica border border-white"
           style={{
             opacity: open && "1",
             transform: open && "translate(40px)",

@@ -6,6 +6,7 @@ import Press from "./Pages/Press";
 import Pascal from "./Pages/Pascal";
 import Oluwatobiloba from "./Pages/Oluwatobiloba";
 import LoadingScreen from "./Components/LoadingScreen";
+import Carousel from "./Components/Carousel";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/oluwatobiloba" element={<Oluwatobiloba />} />
       </Routes>
       ) : (<LoadingScreen />)}
+      {/* <Carousel /> */}
     </>
   );
 }
