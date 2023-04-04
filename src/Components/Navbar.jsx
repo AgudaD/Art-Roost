@@ -12,7 +12,7 @@ const Navbar = () => {
       // document.body.style.overflow = "scroll";
     }
     return () => {
-      // document.body.style.overflow = "scroll";
+      document.body.style.overflow = "scroll";
     }
   }, [!open])
   
