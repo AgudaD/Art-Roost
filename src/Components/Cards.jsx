@@ -11,7 +11,7 @@ const Cards = () => {
         <div className="absolute top-0 left-0 z-40 flex flex-col-reverse items-start gap-[37px] bg-white rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px]">
    
         <div className='w-[212px] space-y-3 md:w-[433px]'> 
-          <p className='text-2xl text-[#502A34] font-semibold italic capitalize md:text-3xl'>paschal ugwu</p>
+          <p className='text-2xl text-[#502A34] font-adobe font-semibold italic capitalize md:text-3xl'>paschal ugwu</p>
           <p className='font-normal text-sm text-[#2C3530] md:text-lg'>Meet Paschal Ugwu, 27 year old artist from Enugu state.</p>
           <div>
             <Link to='/pascal'><button className='flex items-center gap-2 text-[#502A34] md:text-lg'>Read more <img src={outwardarrow} alt=""  /></button></Link>
@@ -63,7 +63,7 @@ const Cards = () => {
         <div className="absolute top-0 left-0 z-40 flex flex-col-reverse items-start gap-[37px] bg-white rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px]">
    
         <div className='w-[212px] space-y-3 md:w-[433px]'> 
-          <p className='text-2xl text-[#502A34] font-semibold italic capitalize md:text-3xl'>Oluwatobiloba Fasalejo</p>
+          <p className='text-2xl text-[#502A34] font-semibold font-adobe italic capitalize md:text-3xl'>Oluwatobiloba Fasalejo</p>
           <p className='font-normal text-sm text-[#2C3530] md:text-lg '>Meet Oluwatobilola Faselejo, 23 year old artist from Ondo state.</p>
           <div>
             <Link to='/oluwatobiloba'><button className='flex items-center gap-2 text-[#502A34] md:text-lg'>Read more <img src={outwardarrow} alt=""  /></button></Link>
