@@ -38,6 +38,8 @@ const Navbar = () => {
         style={{
           display: open && "block",
           backdropFilter: open && "blur(5px)",
+          background : open && "#849E8F",
+          opacity: open && '80%',
         }}
       >
         <div
