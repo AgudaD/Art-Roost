@@ -10,9 +10,9 @@ const Cards = () => {
     <div className="flex flex-col justify-center items-center p-[18px] mt-28 mb-10 md:px-24">
       <div className="relative">
         {/* card */}
-        <div className="absolute shadow-2xl top-0 left-0 z-40 flex flex-col-reverse items-start cardGap bg-white rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
+        <div className="absolute shadow-2xl top-0 left-0 z-40 flex flex-col-reverse items-start bg-white rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
    
-        <div className='w-[212px] space-y-3 md:w-[433px] mt-2'> 
+        <div className='w-[212px] mt-9 space-y-3 md:w-[433px]'> 
           <p className='text-2xl text-[#502A34] font-adobe font-semibold italic capitalize md:text-3xl'>paschal ugwu</p>
           <p className='font-normal text-sm text-[#2C3530] md:text-lg'>Meet Paschal Ugwu, 27 year old artist from Enugu state.</p>
           <div>
@@ -28,9 +28,9 @@ const Cards = () => {
       </div>
 
       {/* background */}
-      <div className="absolute shadow-2xl top-0 left-0 z-10 -rotate-3 flex flex-col-reverse items-start gap-[37px] bg-[#6E8477] rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
+      <div className="absolute shadow-2xl top-0 left-0 z-10 -rotate-3 flex flex-col-reverse items-start bg-[#6E8477] rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
    
-        <div className='w-[212px] space-y-3 md:w-[433px]'> 
+        <div className='w-[212px] mt-9 space-y-3 md:w-[433px]'> 
           <p className='text-2xl text-[#502A34] font-semibold italic capitalize'>paschal ugwu</p>
           <p className='font-normal text-sm text-[#2C3530]'>Meet Paschal Ugwu, 27 year old artist from Enugu state.</p>
           <div>
@@ -44,9 +44,9 @@ const Cards = () => {
       </div>
 
       {/* background */}
-      <div className="rotate-3 flex flex-col-reverse items-start gap-[37px] bg-[#ADBEB4] rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
+      <div className="rotate-3 flex flex-col-reverse items-start bg-[#ADBEB4] rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
    
-        <div className='w-[212px] space-y-3 md:w-[433px]'> 
+        <div className='w-[212px] mt-9 space-y-3 md:w-[433px]'> 
           <p className='text-2xl text-[#502A34] font-semibold italic capitalize'>paschal ugwu</p>
           <p className='font-normal text-sm text-[#2C3530]'>Meet Paschal Ugwu, 27 year old artist from Enugu state.</p>
           <div>
@@ -64,9 +64,9 @@ const Cards = () => {
       {/* second card */}
       <div className="relative mt-32">
         {/* card */}
-        <div className="absolute shadow-2xl top-0 left-0 z-40 flex flex-col-reverse items-start gap-[37px] bg-white rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
+        <div className="absolute shadow-2xl top-0 left-0 z-40 flex flex-col-reverse items-start bg-white rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
    
-        <div className='w-[212px] space-y-3 md:w-[433px]'> 
+        <div className='w-[212px] mt-9 space-y-3 md:w-[433px]'> 
           <p className='text-2xl text-[#502A34] font-semibold font-adobe italic capitalize md:text-3xl'>Oluwatobiloba Fasalejo</p>
           <p className='font-normal text-sm text-[#2C3530] md:text-lg '>Meet Oluwatobilola Faselejo, 23 year old artist from Ondo state.</p>
           <div>
@@ -82,9 +82,9 @@ const Cards = () => {
       </div>
 
       {/* background */}
-      <div className="absolute shadow-2xl top-0 left-0 z-10 -rotate-3 flex flex-col-reverse items-start gap-[37px] bg-[#6E8477] rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
+      <div className="absolute shadow-2xl top-0 left-0 z-10 -rotate-3 flex flex-col-reverse items-start bg-[#6E8477] rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
    
-        <div className='w-[212px] space-y-3 md:w-[433px]'> 
+        <div className='w-[212px] mt-9 space-y-3 md:w-[433px]'> 
           <p className='text-2xl text-[#502A34] font-semibold italic capitalize'>Oluwatobiloba Fasalejo</p>
           <p className='font-normal text-sm text-[#2C3530]'>Meet Oluwatobilola Faselejo, 23 year old artist from Ondo state.</p>
           <div>
@@ -98,9 +98,9 @@ const Cards = () => {
       </div>
 
       {/* background */}
-      <div className="rotate-3 flex flex-col-reverse items-start gap-[37px] bg-[#ADBEB4] rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
+      <div className="rotate-3 flex flex-col-reverse items-start bg-[#ADBEB4] rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
    
-        <div className='w-[212px] space-y-3 md:w-[433px]'> 
+        <div className='w-[212px] mt-9 space-y-3 md:w-[433px]'> 
           <p className='text-2xl text-[#502A34] font-semibold italic capitalize'>Oluwatobiloba Fasalejo</p>
           <p className='font-normal text-sm text-[#2C3530]'>Meet Oluwatobilola Faselejo, 23 year old artist from Ondo state.</p>
           <div>

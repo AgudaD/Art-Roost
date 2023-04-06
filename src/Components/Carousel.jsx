@@ -22,9 +22,8 @@ const Carousel = () => {
       </Link>
       <Swiper
         modules={[Autoplay]}
-        spaceBetween={2}
+        spaceBetween={10}
         slidesPerView={"1"}
-        effect={"fade"}
         onSwiper={(swiper) => swiper}
         autoplay={{
           delay: 500,
@@ -38,14 +37,14 @@ const Carousel = () => {
           },
           768: {
             slidesPerView: 3,
-            spaceBetween: 40,
+            spaceBetween: 20,
           },
           1024: {
             slidesPerView: 4,
-            spaceBetween: 50,
+            spaceBetween: 20,
           },
         }}
-        className="w-full px-8 py-6 mt-20  cursor-pointer "
+        className="w-full px-4 py-6 mt-20  cursor-pointer "
       >
         <div className="flex justify-center items-center gap-12">
           <SwiperSlide>
@@ -74,6 +73,11 @@ const Carousel = () => {
           </SwiperSlide>
         </div>
       </Swiper>
+
+      <div className="flex flex-col justify-center items-center mt-5 text-white">
+        <p className="font-helvetica capitalize">Artist</p>
+        <p className="text-3xl font-adobe">Paschal Ugwu</p>
+      </div>
     </div>
   );
 };

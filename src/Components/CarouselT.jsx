@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay, EffectFade } from "swiper";
 import art2 from "../assets/art2.png";
+import art6 from "../assets/art6.png";
 import chino19 from "../assets/chino19.jpg";
 import chino25 from "../assets/chino25.jpg";
 import chino29 from "../assets/chino29.jpg";
@@ -22,7 +23,6 @@ const CarouselT = () => {
         modules={[Autoplay]}
         spaceBetween={10}
         slidesPerView={"1"}
-        effect={"fade"}
         onSwiper={(swiper) => swiper}
         autoplay={{
           delay: 500,
@@ -43,7 +43,7 @@ const CarouselT = () => {
             spaceBetween: 20,
           },
         }}
-        className="w-full px-8 py-6 mt-20 cursor-pointer "
+        className="w-full px-4 py-6 mt-20 cursor-pointer "
       >
         <div className="flex justify-center items-center gap-12">
           <SwiperSlide>
@@ -56,6 +56,9 @@ const CarouselT = () => {
             <img src={chino25} alt="" className="w-[317px] h-80" />
           </SwiperSlide>
           <SwiperSlide>
+            <img src={art6} alt="" className="w-[317px] h-80" />
+          </SwiperSlide>
+          <SwiperSlide>
             <img src={chino29} alt="" className="w-[317px] h-80" />
           </SwiperSlide>
           <SwiperSlide>
@@ -63,6 +66,11 @@ const CarouselT = () => {
           </SwiperSlide>
         </div>
       </Swiper>
+
+      <div className="flex flex-col justify-center items-center mt-5 text-white">
+        <p className="font-helvetica capitalize">Artist</p>
+        <p className="text-3xl font-adobe">Oluwatobiloba Fasalejo</p>
+      </div>
     </div>
   );
 }

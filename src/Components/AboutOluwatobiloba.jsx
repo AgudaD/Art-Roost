@@ -38,7 +38,7 @@ const AboutOluwatobiloba = () => {
           </p>
         </div>
         {/* artist statement */}
-        <div className="mt-16 tracking-wide leading-6 md:mt-0 md:basis-1/2">
+        <div className="mt-16 tracking-wide leading-6 mb-10 md:mt-0 md:basis-1/2">
           <p className="text-[#6D4E56] text-3xl font-adobe font-semibold italic md:text-center md:text-5xl">
             Artist Statement
           </p>
@@ -76,7 +76,7 @@ const AboutOluwatobiloba = () => {
         <img src={whitePostcard} alt="" className='hidden absolute bottom-16 -left-7 w-24 h-auto md:block' />
       </div>
 
-          <div className='absolute -bottom-3 -right-3' onClick={() => {window.scrollTo({top:0, left:0, behavior:'smooth'});
+          <div className='absolute -bottom-5 right-0 md:hidden' onClick={() => {window.scrollTo({top:0, left:0, behavior:'smooth'});
         }}>
               <img src={topArrow} alt="" />
           </div>

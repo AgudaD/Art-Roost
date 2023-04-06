@@ -89,7 +89,7 @@ const AboutPascal = () => {
         <img src={brownPostcard} alt="" className='hidden absolute top-5 right-0 w-20 h-auto md:block' />
         <img src={whitePostcard} alt="" className='hidden absolute bottom-16 -left-7 w-24 h-auto md:block' />
       </div>
-      <div className='absolute -bottom-3 -right-3' onClick={() => {window.scrollTo({top:0, left:0, behavior:'smooth'});
+      <div className='absolute bottom-0 right-0 md:hidden' onClick={() => {window.scrollTo({top:0, left:0, behavior:'smooth'});
         }}>
               <img src={topArrow} alt="" />
       </div>
