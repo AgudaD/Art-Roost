@@ -12,7 +12,7 @@ const Cards = () => {
         {/* card */}
         <div className="absolute shadow-2xl top-0 left-0 z-40 flex flex-col-reverse items-start cardGap bg-white rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
    
-        <div className='w-[212px] space-y-3 md:w-[433px]'> 
+        <div className='w-[212px] space-y-3 md:w-[433px] mt-2'> 
           <p className='text-2xl text-[#502A34] font-adobe font-semibold italic capitalize md:text-3xl'>paschal ugwu</p>
           <p className='font-normal text-sm text-[#2C3530] md:text-lg'>Meet Paschal Ugwu, 27 year old artist from Enugu state.</p>
           <div>
