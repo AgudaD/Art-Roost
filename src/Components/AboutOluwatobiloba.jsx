@@ -1,8 +1,14 @@
+import { useEffect } from 'react';
 import brownPostcard from '../assets/brownPostcard.png'
 import whitePostcard from '../assets/whitePostcard.png'
-import top from '../assets/top.svg'
+import topArrow from '../assets/topArrow.svg'
 
 const AboutOluwatobiloba = () => {
+  
+  useEffect(() => {
+    window.scrollTo({top:0, left:0, behavior:'smooth'});
+  }, [])
+  
   return (
     <div className="relative bg-white font-helvetica p-7 mt-10 md:px-32">
       <div className="flex flex-col md:flex-row md:justify-evenly md:gap-12">
@@ -70,7 +76,10 @@ const AboutOluwatobiloba = () => {
         <img src={whitePostcard} alt="" className='hidden absolute bottom-16 -left-7 w-24 h-auto md:block' />
       </div>
 
-      {/* <div className="absolute bottom-0 right-0 px-3 py-1 bg-[#849E8F] flex justify-center items-center rounded-full"><img src={top} alt="" /></div> */}
+          <div className='absolute -bottom-3 -right-3' onClick={() => {window.scrollTo({top:0, left:0, behavior:'smooth'});
+        }}>
+              <img src={topArrow} alt="" />
+          </div>
     </div>
   );
 };

@@ -1,7 +1,14 @@
-import brownPostcard from '../assets/brownPostcard.png'
-import whitePostcard from '../assets/whitePostcard.png'
+import { useEffect } from 'react';
+import brownPostcard from '../assets/brownPostcard.png';
+import whitePostcard from '../assets/whitePostcard.png';
+import topArrow from '../assets/topArrow.svg'
 
 const AboutPascal = () => {
+
+  useEffect(() => {
+    window.scrollTo({top:0, left:0, behavior:'smooth'});
+  }, [])
+
   return (
     <div className="relative bg-white font-helvetica p-7 mt-10 md:px-32">
       <div className="flex flex-col md:flex-row md:justify-evenly md:gap-20">
@@ -40,7 +47,7 @@ const AboutPascal = () => {
           </p>
         </div>
         {/* artist statement */}
-        <div className="mt-16 tracking-wide leading-6 md:mt-0 md:basis-1/2">
+        <div className="mt-16 tracking-wide leading-6 mb-10 md:mt-0 md:basis-1/2">
           <p className="text-[#6D4E56] text-2xl font-adobe font-semibold italic md:text-center md:text-5xl">
             Artist Statement
           </p>
@@ -81,6 +88,10 @@ const AboutPascal = () => {
 
         <img src={brownPostcard} alt="" className='hidden absolute top-5 right-0 w-20 h-auto md:block' />
         <img src={whitePostcard} alt="" className='hidden absolute bottom-16 -left-7 w-24 h-auto md:block' />
+      </div>
+      <div className='absolute -bottom-3 -right-3' onClick={() => {window.scrollTo({top:0, left:0, behavior:'smooth'});
+        }}>
+              <img src={topArrow} alt="" />
       </div>
     </div>
   );
