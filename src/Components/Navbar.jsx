@@ -4,23 +4,27 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [isActive, setIsActive] = useState(false);
+  
+  const navigation = [
+    {}
+  ]
 
   useEffect(() => {
     if (open) {
       document.body.style.overflow = "hidden";
     }else{
-      // document.body.style.overflow = "scroll";
+      document.body.style.overflow = "scroll";
     }
     return () => {
       // document.body.style.overflow = "hidden";
     }
-  }, [open])
+  }, [!open])
   
 
   return (
-    <div className="p-12">
+    <div className="px-6 py-10 md:px-32 md:py-16">
       <div
-        className="space-y-1 md:hidden"
+        className="flex flex-col gap-1 w-fit md:hidden"
         onClick={() => setOpen(!open)}
         style={{
           opacity: open && "0",
@@ -28,17 +32,17 @@ const Navbar = () => {
           transitionDuration: open && "500ms",
         }}
       >
-        <div className="w-5 h-0.5 bg-white"></div>
-        <div className="w-4 h-0.5 bg-white"></div>
-        <div className="w-6 h-0.5 bg-white"></div>
+        <div className="w-5 border border-y-[1.25px] border-white bg-white rounded-sm"></div>
+        <div className="w-4 border border-y-[1.25px] border-white bg-white rounded-sm"></div>
+        <div className="w-6 border border-y-[1.25px] border-white bg-white rounded-sm"></div>
       </div>
       
       <div
-        className="fixed z-50 top-0 left-0 overflow-hidden hidden h-screen w-full"
+        className="fixed z-50 top-0 left-0 bg-[#849E8F] overflow-hidden hidden h-screen w-full"
         style={{
           display: open && "block",
-          backdropFilter: open && "blur(5px)",
-          background : open && "#849E8F",
+          backdropFilter: open && "blur(50px)",
+          // background : open && "#849E8F",
           opacity: open && '80%',
         }}
       >

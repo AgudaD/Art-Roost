@@ -2,9 +2,9 @@ import React from "react";
 
 const FromUs = () => {
   return (
-    <div className="bg-white font-helvetica p-7 mt-10 md:px-28">
-      <p className="text-[#6D4E56] text-xl font-adobe font-semibold italic md:text-center">From us</p>
-      <p className="mt-8 text-[#424F47] text-sm tracking-wide leading-6">
+    <div className="bg-white font-helvetica p-7 mt-10 md:px-32">
+      <p className="mt-24 text-[#6D4E56] text-xl font-adobe font-semibold italic md:text-center">From us</p>
+      <p className="mt-8 mb-20 text-[#424F47] text-sm tracking-wide leading-6">
         Lorem ipsum dolor sit amet consectetur. Ultrices ullamcorper amet urna
         lobortis. Nibh eget amet quis mi. Cursus felis hendrerit tortor dictum
         odio metus. Viverra euismod urna urna nisl ultrices id. Elit viverra sem

@@ -5,7 +5,7 @@ import founder4 from '../assets/founder4.png'
 
 const Founders = () => {
   return (
-    <div>
+    <div className='md:px-28'>
       <div className='flex flex-wrap justify-center items-center gap-4 p-4'>
         {/* card 1 */}
         <div className='flex items-center w-[20rem] h-[7rem]  gap-4 bg-white px-4 py-2 md:w-[33rem]'>

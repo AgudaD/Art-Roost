@@ -1,6 +1,7 @@
 import { motion as m } from "framer-motion";
 import AboutPascal from "../Components/AboutPascal";
 import Footer from "../Components/Footer";
+import Carousel from "../Components/Carousel";
 
 const Pascal = () => {
   return (
@@ -8,8 +9,9 @@ const Pascal = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.75 }}
-      className="bg-[#849E8F]"
+      className="bg-[#849E8F] relative"
     >
+      <Carousel />
       <AboutPascal />
       <Footer />
     </m.div>

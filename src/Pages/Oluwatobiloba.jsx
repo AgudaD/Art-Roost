@@ -1,7 +1,7 @@
 import { motion as m } from "framer-motion";
+import CarouselT from "../Components/CarouselT";
 import AboutOluwatobiloba from "../Components/AboutOluwatobiloba";
 import Footer from "../Components/Footer";
-import DFDF from "./../Components/DFDF";
 
 const Oluwatobiloba = () => {
   return (
@@ -11,6 +11,7 @@ const Oluwatobiloba = () => {
       transition={{ duration: 0.75 }}
       className="bg-[#849E8F]"
     >
+      <CarouselT />
       <AboutOluwatobiloba />
       <Footer />
     </m.div>

@@ -3,14 +3,14 @@ import whitePostcard from '../assets/whitePostcard.png'
 
 const AboutPascal = () => {
   return (
-    <div className="relative bg-white font-helvetica p-7 mt-10 md:px-20">
-      <div className="flex flex-col md:flex-row md:justify-evenly md:gap-12">
+    <div className="relative bg-white font-helvetica p-7 mt-10 md:px-32">
+      <div className="flex flex-col md:flex-row md:justify-evenly md:gap-20">
         {/* biography */}
         <div className="tracking-wide leading-6 md:basis-1/2">
-          <p className="text-[#6D4E56] text-xl font-adobe font-semibold italic md:text-center">
+          <p className="text-[#6D4E56] text-2xl font-adobe font-semibold italic md:text-center md:text-5xl">
             Biography
           </p>
-          <p className="mt-7 text-[#424F47] text-sm">
+          <p className="mt-7 text-[#424F47] text-base">
             Paschal Ugwu is a Nigerian artist born in 1996 in Orba, Enugu State.
             He is currently based in Abuja where he creates his captivating
             artworks. Paschal obtained his Bachelor's degree from the University
@@ -21,7 +21,7 @@ const AboutPascal = () => {
             Ugwu's work is a powerful expression of the human form and a
             thought-provoking commentary on the human experience.
           </p>
-          <p className="mt-7 text-[#424F47] text-sm">
+          <p className="mt-7 text-[#424F47] text-base">
             Paschal has participated in numerous exhibitions in Nigeria. In
             2021, he participated in Bootcamp, organized by Rele Art Foundation,
             under Rele Gallery, Nigeria. In 2020, a group exhibition "In Time
@@ -33,7 +33,7 @@ const AboutPascal = () => {
             2017, a "Walls and Patterns Painting Workshop" by Alliance Francais,
             Enugu State.
           </p>
-          <p className="mt-7 text-[#424F47] text-sm">
+          <p className="mt-7 text-[#424F47] text-base">
             He has also been featured in publications; "Shoutout Miami", Los
             Angeles, 2022; "Artmatazz" Art magazine, Nigeria, 2020 and "Voyage
             Houston Magazine, New York, USA, in 2019.
@@ -41,10 +41,10 @@ const AboutPascal = () => {
         </div>
         {/* artist statement */}
         <div className="mt-16 tracking-wide leading-6 md:mt-0 md:basis-1/2">
-          <p className="text-[#6D4E56] text-xl font-adobe font-semibold italic md:text-center">
+          <p className="text-[#6D4E56] text-2xl font-adobe font-semibold italic md:text-center md:text-5xl">
             Artist Statement
           </p>
-          <p className="mt-7 text-[#424F47] text-sm">
+          <p className="mt-7 text-[#424F47] text-base">
             "Run Through Walls" is a series of eight paintings that explore the
             concept of self-reliance and determination. This series is born from
             a period of intense challenge in my life, when I realized that I
@@ -54,7 +54,7 @@ const AboutPascal = () => {
             work. Through these images, I strive to capture the different moods
             and emotions associated with the journey towards self-reliance.
           </p>
-          <p className="mt-7 text-[#424F47] text-sm">
+          <p className="mt-7 text-[#424F47] text-base">
             Each of the eight paintings in this series possesses its own unique
             facial expression, reflecting the different stages of this
             transformative journey. The body of each image is achieved through
@@ -63,7 +63,7 @@ const AboutPascal = () => {
             allowing me to fully immerse myself in the creative process and
             express my ideas without any limitations.
           </p>
-          <p className="mt-7 text-[#424F47] text-sm">
+          <p className="mt-7 text-[#424F47] text-base">
             Through this series, I aim to inspire others to find the courage and
             determination to push through their own obstacles and strive for
             self-reliance. Whether it's facing personal challenges or larger
@@ -79,8 +79,8 @@ const AboutPascal = () => {
           </p>
         </div>
 
-        <img src={brownPostcard} alt="" className='absolute top-5 right-0 w-20 h-auto' />
-        <img src={whitePostcard} alt="" className='absolute bottom-16 -left-7 w-24 h-auto' />
+        <img src={brownPostcard} alt="" className='hidden absolute top-5 right-0 w-20 h-auto md:block' />
+        <img src={whitePostcard} alt="" className='hidden absolute bottom-16 -left-7 w-24 h-auto md:block' />
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutGallery = () => {
   return (
-    <div className="bg-white font-helvetica p-6 mt-10 md:px-28">
+    <div className="bg-white font-helvetica p-6 mt-10 md:px-36">
       <div>
           <div>
             <p className="font-adobe text-[#6D4E56] text-xl font-semibold italic md:text-center">About the gallery</p>

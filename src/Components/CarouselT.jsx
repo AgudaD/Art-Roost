@@ -2,18 +2,17 @@ import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay, EffectFade } from "swiper";
-import chino15 from "../assets/chino15.jpg";
-import chino45 from "../assets/chino45.jpg";
-import chino47 from "../assets/chino47.jpg";
-import chino55 from "../assets/chino55.jpg";
-import chino61 from "../assets/chino61.jpg";
-import art1 from "../assets/art1.png";
-import art3 from "../assets/art3.png";
-import art4 from "../assets/art4.png";
+import art2 from "../assets/art2.png";
+import art5 from "../assets/art5.png";
+import chino19 from "../assets/chino19.jpg";
+import chino25 from "../assets/chino25.jpg";
+import chino29 from "../assets/chino29.jpg";
+import chino37 from "../assets/chino37.jpg";
 import cancel from "../assets/cancel.svg";
 
-const Carousel = () => {
-  return (
+
+const CarouselT = () => {
+  return(
     <div className="bg-[#849E8F] p-2">
       <Link to="/">
         <div className="absolute top-6 right-6 p-1 flex justify-center items-center bg-white rounded-full">
@@ -45,37 +44,31 @@ const Carousel = () => {
             spaceBetween: 50,
           },
         }}
-        className="w-full px-8 py-6 mt-20  cursor-pointer "
+        className="w-full px-8 py-6 mt-20 cursor-pointer "
       >
         <div className="flex justify-center items-center gap-12">
           <SwiperSlide>
-            <img src={art1} alt="" className="w-auto h-80" />
+            <img src={art2} alt="" className="w-auto h-80" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={art3} alt="" className="w-auto h-80" />
+            <img src={art5} alt="" className="w-auto h-80" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={art4} alt="" className="w-auto h-80" />
+            <img src={chino19} alt="" className="w-auto h-80" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={chino15} alt="" className="w-auto h-80" />
+            <img src={chino25} alt="" className="w-auto h-80" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={chino45} alt="" className="w-auto h-80" />
+            <img src={chino29} alt="" className="w-auto h-80" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={chino47} alt="" className="w-auto h-80" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={chino55} alt="" className="w-auto h-80" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={chino61} alt="" className="w-auto h-80" />
+            <img src={chino37} alt="" className="w-auto h-80" />
           </SwiperSlide>
         </div>
       </Swiper>
     </div>
   );
-};
+}
 
-export default Carousel;
+export default CarouselT
