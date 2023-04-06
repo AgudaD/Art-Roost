@@ -13,3 +13,7 @@
 ion-icon{
     color: white;
 }
+.cardGap{
+    gap: 37px;
+    -webkit-gap: 37px;
+}

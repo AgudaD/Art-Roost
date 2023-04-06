@@ -10,7 +10,7 @@ const Cards = () => {
     <div className="flex flex-col justify-center items-center p-[18px] mt-28 mb-10 md:px-24">
       <div className="relative">
         {/* card */}
-        <div className="absolute shadow-2xl top-0 left-0 z-40 flex flex-col-reverse items-start gap-[37px] bg-white rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
+        <div className="absolute shadow-2xl top-0 left-0 z-40 flex flex-col-reverse items-start cardGap bg-white rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
    
         <div className='w-[212px] space-y-3 md:w-[433px]'> 
           <p className='text-2xl text-[#502A34] font-adobe font-semibold italic capitalize md:text-3xl'>paschal ugwu</p>

@@ -1,5 +1,6 @@
 import brownPostcard from '../assets/brownPostcard.png'
 import whitePostcard from '../assets/whitePostcard.png'
+import top from '../assets/top.svg'
 
 const AboutOluwatobiloba = () => {
   return (
@@ -50,7 +51,7 @@ const AboutOluwatobiloba = () => {
             in my environment, their attitude to life, religion and
             relationships which is one of the way I communicate to people.
           </p>
-          <p className="mt-7 text-[#424F47] text-base">
+          <p className="mt-7 text-[#c] text-base">
             My work often deals with the theme of relationship, hope and
             perseverance, using vibrant colors and dynamic compositions to
             convey a sense of truth, sharing my reality with the world. Through
@@ -68,6 +69,8 @@ const AboutOluwatobiloba = () => {
         <img src={brownPostcard} alt="" className='hidden absolute top-5 right-0 w-20 h-auto md:block' />
         <img src={whitePostcard} alt="" className='hidden absolute bottom-16 -left-7 w-24 h-auto md:block' />
       </div>
+
+      {/* <div className="absolute bottom-0 right-0 px-3 py-1 bg-[#849E8F] flex justify-center items-center rounded-full"><img src={top} alt="" /></div> */}
     </div>
   );
 };
