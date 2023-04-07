@@ -16,7 +16,7 @@ const LoadingScreen = () => {
   }, [filled, isRunning])
 
   return (
-    <div className='h-screen bg-[#849E8F] flex justify-center items-end gap-6 p-10  text-xl text-white font-Adobe md:justify-between md:items-end'>
+    <div className='h-screen bg-[#849E8F] flex justify-between items-end p-10  text-xl text-white font-Adobe md:justify-between md:items-end'>
       <p className='mb-12'>Art roost presents...</p>
       <p className='mb-12'>{ filled }%</p>
     </div>
