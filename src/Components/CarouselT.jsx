@@ -44,22 +44,22 @@ const CarouselT = () => {
       >
         <div className="flex justify-center items-center gap-12">
           <SwiperSlide>
-            <img src={art2} alt="" className="w-[300px] h-80" />
+            <img loading="lazy" src={art2} alt="" className="w-[300px] h-80" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={art2} alt="" className="w-[300px] h-80" />
+            <img loading="lazy" src={art2} alt="" className="w-[300px] h-80" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={art2} alt="" className="w-[300px] h-80" />
+            <img loading="lazy" src={art2} alt="" className="w-[300px] h-80" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={chino19} alt="" className="w-[300px] h-80" />
+            <img loading="lazy" src={chino19} alt="" className="w-[300px] h-80" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={chino25} alt="" className="w-[300px] h-80" />
+            <img loading="lazy" src={chino25} alt="" className="w-[300px] h-80" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={chino37} alt="" className="w-[300px] h-80" />
+            <img loading="lazy" src={chino37} alt="" className="w-[300px] h-80" />
           </SwiperSlide>
         </div>
       </Swiper>
