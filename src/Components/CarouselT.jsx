@@ -1,12 +1,10 @@
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Autoplay, EffectFade } from "swiper";
+import { Autoplay} from "swiper";
 import art2 from "../assets/art2.png";
-import art6 from "../assets/art6.png";
 import chino19 from "../assets/chino19.jpg";
 import chino25 from "../assets/chino25.jpg";
-import chino29 from "../assets/chino29.jpg";
 import chino37 from "../assets/chino37.jpg";
 import cancel from "../assets/cancel.svg";
 
@@ -46,13 +44,13 @@ const CarouselT = () => {
       >
         <div className="flex justify-center items-center gap-12">
           <SwiperSlide>
-            <img src={art2} alt="" className="w-[300px] h-80 -rotate-3" />
+            <img src={art2} alt="" className="w-[300px] h-80" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={art2} alt="" className="w-[300px] h-80 -rotate-3" />
+            <img src={art2} alt="" className="w-[300px] h-80" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={art2} alt="" className="w-[300px] h-80 -rotate-3" />
+            <img src={art2} alt="" className="w-[300px] h-80" />
           </SwiperSlide>
           <SwiperSlide>
             <img src={chino19} alt="" className="w-[300px] h-80" />

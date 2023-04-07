@@ -1,14 +1,13 @@
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Autoplay, EffectFade } from "swiper";
+import { Autoplay } from "swiper";
 import chino15 from "../assets/chino15.jpg";
 import chino45 from "../assets/chino45.jpg";
 import chino47 from "../assets/chino47.jpg";
 import chino55 from "../assets/chino55.jpg";
 import chino61 from "../assets/chino61.jpg";
 import art1 from "../assets/art1.png";
-import art3 from "../assets/art3.png";
 import art4 from "../assets/art4.png";
 import cancel from "../assets/cancel.svg";
 
