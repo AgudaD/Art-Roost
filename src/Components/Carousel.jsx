@@ -70,9 +70,9 @@ const Carousel = () => {
         </div>
       </Swiper>
 
-      <div className="flex flex-col justify-center items-center mt-5 text-white">
-        <p className="font-helvetica capitalize">Artist</p>
-        <p className="text-3xl font-adobe">Paschal Ugwu</p>
+      <div className="flex flex-col justify-center items-center mt-7 text-white">
+        <p className="text-[#F0EAE5] font-helvetica uppercase">Artist</p>
+        <p className="mt-2 text-3xl font-adobe italic">Paschal Ugwu</p>
       </div>
     </div>
   );
