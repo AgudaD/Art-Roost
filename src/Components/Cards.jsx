@@ -10,7 +10,7 @@ const Cards = () => {
     <div className="flex flex-col justify-center items-center p-[18px] mt-28 mb-10 md:px-24">
       <div className="relative">
         {/* card */}
-        <div className="absolute shadow-2xl top-0 left-0 z-40 flex flex-col-reverse items-start bg-white rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
+        <div className="absolute shadow-md top-0 left-0 z-40 flex flex-col-reverse items-start bg-white rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
    
         <div className='w-[212px] mt-9 space-y-3 md:w-[433px]'> 
           <p className='text-2xl text-[#502A34] font-adobe font-semibold italic capitalize md:text-3xl'>paschal ugwu</p>
@@ -28,7 +28,7 @@ const Cards = () => {
       </div>
 
       {/* background */}
-      <div className="absolute shadow-2xl top-0 left-0 z-10 -rotate-3 flex flex-col-reverse items-start bg-[#6E8477] rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
+      <div className="absolute shadow-md top-0 left-0 z-10 -rotate-3 flex flex-col-reverse items-start bg-[#6E8477] rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
    
         <div className='w-[212px] mt-9 space-y-3 md:w-[433px]'> 
           <p className='text-2xl text-[#502A34] font-semibold italic capitalize'>paschal ugwu</p>
@@ -44,7 +44,7 @@ const Cards = () => {
       </div>
 
       {/* background */}
-      <div className="rotate-3 flex flex-col-reverse items-start bg-[#ADBEB4] rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
+      <div className="rotate-3 shadow-md flex flex-col-reverse items-start bg-[#ADBEB4] rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
    
         <div className='w-[212px] mt-9 space-y-3 md:w-[433px]'> 
           <p className='text-2xl text-[#502A34] font-semibold italic capitalize'>paschal ugwu</p>
@@ -64,7 +64,7 @@ const Cards = () => {
       {/* second card */}
       <div className="relative mt-32">
         {/* card */}
-        <div className="absolute shadow-2xl top-0 left-0 z-40 flex flex-col-reverse items-start bg-white rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
+        <div className="absolute shadow-md top-0 left-0 z-40 flex flex-col-reverse items-start bg-white rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
    
         <div className='w-[212px] mt-9 space-y-3 md:w-[433px]'> 
           <p className='text-2xl text-[#502A34] font-semibold font-adobe italic capitalize md:text-3xl'>Oluwatobiloba Fasalejo</p>
@@ -82,7 +82,7 @@ const Cards = () => {
       </div>
 
       {/* background */}
-      <div className="absolute shadow-2xl top-0 left-0 z-10 -rotate-3 flex flex-col-reverse items-start bg-[#6E8477] rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
+      <div className="absolute shadow-md top-0 left-0 z-10 -rotate-3 flex flex-col-reverse items-start bg-[#6E8477] rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
    
         <div className='w-[212px] mt-9 space-y-3 md:w-[433px]'> 
           <p className='text-2xl text-[#502A34] font-semibold italic capitalize'>Oluwatobiloba Fasalejo</p>
@@ -98,7 +98,7 @@ const Cards = () => {
       </div>
 
       {/* background */}
-      <div className="rotate-3 flex flex-col-reverse items-start bg-[#ADBEB4] rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
+      <div className="rotate-3 shadow-md flex flex-col-reverse items-start bg-[#ADBEB4] rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">
    
         <div className='w-[212px] mt-9 space-y-3 md:w-[433px]'> 
           <p className='text-2xl text-[#502A34] font-semibold italic capitalize'>Oluwatobiloba Fasalejo</p>

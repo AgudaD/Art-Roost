@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="bg-white px-[24px] py-10 mt-[132px] text-[#424F47] md:px-12 md:15">
+    <div className="bg-white px-[24px] py-10 mt-[132px] text-[#424F47] md:px-36">
       <div className="flex flex-col space-y-8 font-helvetica md:flex-row md:items-start md:space-y-0 gap-12 ">
           <p className="md:basis-1/2">
             <span className="font-semibold">Run through walls</span> is a phrase coined from the popular English idiom,

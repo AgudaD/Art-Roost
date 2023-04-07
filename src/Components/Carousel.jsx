@@ -16,8 +16,8 @@ const Carousel = () => {
   return (
     <div className="bg-[#849E8F] p-2">
       <Link to="/">
-        <div className="absolute top-6 right-6 p-1 flex justify-center items-center bg-white rounded-full">
-          <img src={cancel} alt="" />
+        <div className="absolute top-6 right-0 p-2 flex justify-center items-center bg-white rounded-full md:top-16 md:right-28">
+          <img src={cancel} alt="" className="w-3 h-auto" />
         </div>
       </Link>
       <Swiper
@@ -48,28 +48,25 @@ const Carousel = () => {
       >
         <div className="flex justify-center items-center gap-12">
           <SwiperSlide>
-            <img src={art1} alt="" className="w-auto h-80" />
+            <img src={art1} alt="" className="w-[300px] h-80" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={art3} alt="" className="w-auto h-80" />
+            <img src={art4} alt="" className="w-[300px] h-80" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={art4} alt="" className="w-auto h-80" />
+            <img src={chino15} alt="" className="w-[300px] h-80" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={chino15} alt="" className="w-auto h-80" />
+            <img src={chino45} alt="" className="w-[300px] h-80" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={chino45} alt="" className="w-auto h-80" />
+            <img src={chino47} alt="" className="w-[300px] h-80" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={chino47} alt="" className="w-auto h-80" />
+            <img src={chino55} alt="" className="w-[300px] h-80" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={chino55} alt="" className="w-auto h-80" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={chino61} alt="" className="w-auto h-80" />
+            <img src={chino61} alt="" className="w-[300px] h-80" />
           </SwiperSlide>
         </div>
       </Swiper>

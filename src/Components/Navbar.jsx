@@ -1,22 +1,17 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  const [isActive, setIsActive] = useState(false);
   
-  const navigation = [
-    {}
-  ]
-
   useEffect(() => {
     if (open) {
       document.body.style.overflow = "hidden";
     }else{
-      document.body.style.overflow = "scroll";
+      document.body.style.overflowY = "scroll";
     }
     return () => {
-      // document.body.style.overflow = "hidden";
+      document.body.style.overflowX = "hidden";
     }
   }, [!open])
   
@@ -28,8 +23,6 @@ const Navbar = () => {
         onClick={() => setOpen(!open)}
         style={{
           opacity: open && "0",
-          transition: open && "all",
-          transitionDuration: open && "500ms",
         }}
       >
         <div className="w-5 border border-y-[1.25px] border-white bg-white rounded-sm"></div>
@@ -38,12 +31,13 @@ const Navbar = () => {
       </div>
       
       <div
-        className="fixed z-50 top-0 left-0 bg-[#849E8F] overflow-hidden hidden h-screen w-full"
+        className="absolute top-0 z-50 left-0 overflow-hidden hidden h-screen w-full"
         style={{
           display: open && "block",
-          backdropFilter: open && "blur(50px)",
-          // background : open && "#849E8F",
-          opacity: open && '80%',
+          background : open && "#849E8F",
+          opacity: open && '70%',
+          transition: open && "all",
+          transitionDuration: open && "500ms",
         }}
       >
         <div
@@ -51,41 +45,33 @@ const Navbar = () => {
           onClick={() => setOpen(!open)}
           style={{
             opacity: open && "1",
-            transition: open && "all",
-            transitionDuration: open && "all",
           }}
         >
           <ion-icon name="close-outline" size="large"></ion-icon>
         </div>
         <nav
-          className="absolute top-8 left-6 opacity-0 text-white font-helvetica border border-white"
+          className="absolute top-8 left-6 z-50 opacity-0 flex flex-col text-center text-white font-helvetica"
           style={{
             opacity: open && "1",
             transform: open && "translate(40px)",
           }}
         >
-          <ul>
-            <li className="px-6 py-2">
-              <Link to="/">Home</Link>
-            </li>
-            <hr />
-            <li className="px-6 py-2">
-              <Link to="/about">About us</Link>
-            </li>
-            <hr />
-            <li className="px-6 py-2">
-              <Link to="/press">Press</Link>
-            </li>
-          </ul>
+              <NavLink className={({isActive}) => (isActive ? 'active' : 'inactive')} to="/">Home</NavLink>
+              <NavLink className={({isActive}) => (isActive ? 'active' : 'inactive')} to="/about">About us</NavLink>
+              <NavLink className={({isActive}) => (isActive ? 'active' : 'inactive')} to="/press">Press</NavLink>
         </nav>
       </div>
 
       <nav className="hidden text-white md:block">
-        <ul className="flex justify-start items-center">
-          <li className="bg-white text-[#849E8F] px-8 py-2 border border-white"><Link to="/">Home</Link></li>
-          <li className="px-8 py-2 border border-white"><Link to="/about">About Us</Link></li>
-          <li className="px-8 py-2 border border-white"><Link to="/press">Press</Link></li>
-        </ul>
+        <NavLink className={({isActive}) => (isActive ? 'active' : 'inactive')} to='/'>
+          Home
+        </NavLink>
+        <NavLink className={({isActive}) => (isActive ? 'active' : 'inactive')} to='/about'>
+          About Us
+        </NavLink>
+        <NavLink className={({isActive}) => (isActive ? 'active' : 'inactive')} to='/press'>
+          Press
+        </NavLink>
       </nav>
     </div>
   );
