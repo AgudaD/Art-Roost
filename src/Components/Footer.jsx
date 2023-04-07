@@ -11,7 +11,7 @@ const Footer = () => {
               <div className='mt-10 space-y-2 md:mt-0'>
                 <p className='font-adobe italic md:w-[348px]'>Join our mailing list for updates on our future exhibition</p>
                 <div className='flex text-xs'>
-                    <input type="text" placeholder='Email address' className='bg-transparent w-full p-2 outline-none border  placeholder:text-white' />
+                    <input type="text" placeholder='Email address' className='bg-transparent w-full p-2 outline-none border appearance-none  placeholder:text-white' />
                     <button className='flex items-center gap-2 bg-white w-[120px] p-2 text-[#58695F] '>Sign up <img src={forwardArrow} alt="" /></button>
                 </div>
               </div>

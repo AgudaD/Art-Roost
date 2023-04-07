@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  
+
   useEffect(() => {
     if (open) {
       document.body.style.overflow = "hidden";
@@ -35,7 +35,7 @@ const Navbar = () => {
         style={{
           display: open && "block",
           background : open && "#849E8F",
-          opacity: open && '70%',
+          opacity: open && '90%',
           transition: open && "all",
           transitionDuration: open && "500ms",
         }}
