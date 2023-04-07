@@ -7,7 +7,7 @@ import bluesticker from '../assets/bluesticker.png'
 
 const Cards = () => {
   return (
-    <div className="flex flex-col justify-center items-center p-[18px] mt-28 mb-10 md:px-24">
+    <div className="flex flex-col justify-center items-center p-[18px] mt-20 mb-10 md:px-24">
       <div className="relative">
         {/* card */}
         <div className="absolute shadow-md top-0 left-0 z-40 flex flex-col-reverse items-start bg-white rounded-md px-6 py-8 md:flex-row md:items-center md:gap-[101px] md:pl-16 md:pr-20">

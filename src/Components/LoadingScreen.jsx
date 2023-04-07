@@ -1,4 +1,4 @@
-// import { motion as m } from 'framer-motion';
+import { motion as m, AnimatePresence } from 'framer-motion';
 import { useState, useEffect } from 'react'
 
 const LoadingScreen = () => {
@@ -16,10 +16,14 @@ const LoadingScreen = () => {
   }, [filled, isRunning])
 
   return (
-    <div className='h-screen bg-[#849E8F] flex justify-between items-end p-10  text-xl text-white font-Adobe md:justify-between md:items-end'>
-      <p className='mb-12'>Art roost presents...</p>
-      <p className='mb-12'>{ filled }%</p>
-    </div>
+      <m.div
+        className="bg-[#849E8F]"
+      >
+        <div className='h-screen bg-[#849E8F] flex justify-between items-end p-10  text-xl text-white font-Adobe md:justify-between md:items-end'>
+          <p className='mb-12'>Art roost presents...</p>
+          <p className='mb-12'>{ filled }%</p>
+        </div>
+      </m.div>
   )
 }
 

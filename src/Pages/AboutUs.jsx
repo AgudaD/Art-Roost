@@ -7,9 +7,10 @@ import Footer from "../Components/Footer";
 const AboutUs = () => {
   return (
     <m.div
-      initial={{ opacity: 0 }}
+      initial={{ opacity: 0.9 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 0.75 }}
+      transition={{ duration: 1, ease: "easeIn" }}
+      exit={{ opacity: 1 }}
       className="bg-[#849E8F]"
     >
       <Navbar />

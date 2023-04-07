@@ -11,7 +11,7 @@ const AboutOluwatobiloba = () => {
   
   return (
     <div className="relative bg-white font-helvetica p-7 mt-10 md:px-32">
-      <div className="flex flex-col md:flex-row md:justify-evenly md:gap-12">
+      <div className="flex flex-col md:flex-row md:justify-evenly md:gap-12 md:mt-24">
         {/* biography */}
         <div className="tracking-wide leading-6 md:basis-1/2">
           <p className="text-[#6D4E56] text-3xl font-adobe font-semibold italic md:text-center md:text-5xl">
@@ -72,8 +72,8 @@ const AboutOluwatobiloba = () => {
           </p>
         </div>
 
-        <img src={brownPostcard} alt="" className='hidden absolute top-5 right-0 w-20 h-auto md:block' />
-        <img src={whitePostcard} alt="" className='hidden absolute bottom-16 -left-7 w-24 h-auto md:block' />
+        <img src={brownPostcard} alt="" className='hidden absolute top-24 right-0 w-20 h-auto md:block' />
+        <img src={whitePostcard} alt="" className='hidden absolute bottom-20 -left-7 w-24 h-auto md:block' />
       </div>
 
           <div className='absolute -bottom-5 right-0 md:hidden' onClick={() => {window.scrollTo({top:0, left:0, behavior:'smooth'});
