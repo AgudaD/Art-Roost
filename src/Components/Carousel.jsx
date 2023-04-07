@@ -16,7 +16,7 @@ const Carousel = () => {
   return (
     <div className="bg-[#849E8F] p-2">
       <Link to="/">
-        <div className="absolute top-6 right-0 p-2 flex justify-center items-center bg-white rounded-full md:top-16 md:right-28">
+        <div className="absolute top-6 right-10 p-2 flex justify-center items-center bg-white rounded-full md:top-8 md:right-14">
           <img src={cancel} alt="" className="w-3 h-auto" />
         </div>
       </Link>
