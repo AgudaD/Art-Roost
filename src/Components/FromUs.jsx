@@ -3,10 +3,10 @@ import React from "react";
 const FromUs = () => {
   return (
     <div className="bg-white font-helvetica p-7 mt-10 md:px-32">
-      <p className="mt-24 text-[#6D4E56] text-xl font-adobe font-semibold italic md:text-center">
+      <p className=" text-[#6D4E56] text-xl font-adobe font-semibold italic md:mt-24 md:text-center">
         PRESS RELEASE
       </p>
-      <p className="mt-8 mb-20 text-[#424F47] text-sm tracking-wide leading-6">
+      <p className="mt-4 mb-20 text-[#424F47] text-sm tracking-wide leading-6">
         The Art Roost Gallery Debuts Art Exhibition “Run Through Walls” From the
         8th to the 9th of April 2023, the Art Roost Gallery will present an
         exhibition of paintings and other forms of art work. This exhibition's
