@@ -16,9 +16,9 @@ const LoadingScreen = () => {
   }, [filled, isRunning])
 
   return (
-    <div className='h-screen bg-[#849E8F] flex justify-between items-end p-20 text-2xl text-white font-Adobe' onClick={() => setIsRunning(true)}>
+    <div className='h-screen bg-[#849E8F] flex justify-between items-end p-20  text-2xl text-white font-Adobe' onClick={() => setIsRunning(true)}>
       <p>Art roost presents...</p>
-      <p>{ filled }%</p>
+      <p className='mb-32'>{ filled }%</p>
     </div>
   )
 }
