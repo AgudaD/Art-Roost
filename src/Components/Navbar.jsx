@@ -31,7 +31,7 @@ const Navbar = () => {
       </div>
       
       <div
-        className="absolute top-0 z-50 left-0 overflow-hidden hidden h-screen w-full"
+        className="fixed top-0 z-50 left-0 overflow-hidden hidden h-screen w-full"
         style={{
           display: open && "block",
           background : open && "#849E8F",
