@@ -47,12 +47,6 @@ const CarouselT = () => {
             <img loading="lazy" src={art2} alt="" className="w-[300px] h-80" />
           </SwiperSlide>
           <SwiperSlide>
-            <img loading="lazy" src={art2} alt="" className="w-[300px] h-80" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img loading="lazy" src={art2} alt="" className="w-[300px] h-80" />
-          </SwiperSlide>
-          <SwiperSlide>
             <img loading="lazy" src={chino19} alt="" className="w-[300px] h-80" />
           </SwiperSlide>
           <SwiperSlide>

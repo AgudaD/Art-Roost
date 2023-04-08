@@ -47,25 +47,25 @@ const Carousel = () => {
       >
         <div className="flex justify-center items-center gap-12">
           <SwiperSlide>
-            <img src={art1} alt="" className="w-[300px] h-80" />
+            <img loading="lazy" src={art1} alt="" className="w-[300px] h-80" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={art4} alt="" className="w-[300px] h-80" />
+            <img loading="lazy" src={art4} alt="" className="w-[300px] h-80" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={chino15} alt="" className="w-[300px] h-80" />
+            <img loading="lazy" src={chino15} alt="" className="w-[300px] h-80" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={chino45} alt="" className="w-[300px] h-80" />
+            <img loading="lazy" src={chino45} alt="" className="w-[300px] h-80" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={chino47} alt="" className="w-[300px] h-80" />
+            <img loading="lazy" src={chino47} alt="" className="w-[300px] h-80" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={chino55} alt="" className="w-[300px] h-80" />
+            <img loading="lazy" src={chino55} alt="" className="w-[300px] h-80" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={chino61} alt="" className="w-[300px] h-80" />
+            <img loading="lazy" src={chino61} alt="" className="w-[300px] h-80" />
           </SwiperSlide>
         </div>
       </Swiper>
