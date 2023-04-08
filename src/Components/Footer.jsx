@@ -7,11 +7,10 @@ const Footer = () => {
     <div className='bg-[#6E8477] mt-8 py-10 px-6  md:px-16 lg:px-24'>
       <div className='flex flex-col items-start w-full text-white font-helvetica
     md:flex-row md:justify-between'>
-          <div className="flex flex-col items-start md:flex-row md:gap-12">
+          <div className="flex flex-col items-start md:flex-row md:items-center md:gap-12">
               <img src={secondaryLogo} alt="" />
-              <div className='mt-10 space-y-2 md:mt-0'>
-                <p className='font-adobe italic md:w-[348px]'>Join our mailing list for updates on our future exhibition</p>
-                <div className='font-adobe md:w-[348px]'>
+              <div className='mt-10 md:mt-0'>
+                <div className='font-adobe italic md:w-[348px]'>
                     <p>Follow us on social media for updates on our future exhibitions</p>
                 </div>
               </div>
