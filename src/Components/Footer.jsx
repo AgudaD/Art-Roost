@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import secondaryLogo from '../assets/secondaryLogo.png'
 import forwardArrow from '../assets/forwardArrow.svg'
 
@@ -10,9 +11,8 @@ const Footer = () => {
               <img src={secondaryLogo} alt="" />
               <div className='mt-10 space-y-2 md:mt-0'>
                 <p className='font-adobe italic md:w-[348px]'>Join our mailing list for updates on our future exhibition</p>
-                <div className='flex text-xs'>
-                    <input type="text" placeholder='Email address' className='bg-transparent w-full p-2 outline-none border placeholder:text-white' />
-                    <button className='flex items-center gap-2 bg-white w-[120px] p-2 text-[#58695F] '>Sign up <img src={forwardArrow} alt="" /></button>
+                <div className='font-adobe md:w-[348px]'>
+                    <p>Follow us on social media for updates on our future exhibitions</p>
                 </div>
               </div>
           </div>
@@ -21,8 +21,18 @@ const Footer = () => {
             <p>+234-916-442-7566</p>
             <p>admin@artroostgallery.com</p>
             <div className="flex items-center gap-6">
-                <p>Twitter</p>
-                <p>Instagram</p>
+                <a 
+                  href="https://twitter.com/artroostgallery?s=21&t=KreqcKYgbO-4zcdjfgG14g"
+                  target='_blank'
+                >
+                  <p>Twitter</p>
+                </a>
+                <a 
+                  href="https://instagram.com/artroostgallery?igshid=YmMyMTA2M2Y="
+                  target='_blank'
+                >
+                  <p>Instagram</p>
+                </a>
             </div>
           </div>
       </div>
